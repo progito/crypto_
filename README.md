@@ -1,49 +1,50 @@
+# Crypto Приложение
 
-# Crypto Portfolio Application
-## Project Overview
-The "Crypto_" Application will be a local portfolio management tool that allows users to track and manage their cryptocurrency investments. The application will be developed using PyQt6 for the frontend, Flask for the backend, and PostgreSQL for data storage.
-## Features
+## Обзор проекта
+Приложение "Crypto_" будет локальным инструментом для управления портфелем, который позволяет пользователям отслеживать и управлять своими инвестициями в криптовалюту. Приложение будет разработано с использованием PyQt6 для фронтенда, Flask для бэкенда и PostgreSQL для хранения данных.
 
-### User Authentication
-- **User Registration**: Users can register with a username, password, and password confirmation.
-- **User Login**: Users can log in using their username and password.
+## Функциональные возможности
 
-### Dashboard
-- The dashboard will display a list of cryptocurrencies, showing:
-  - Current price of each coin
-  - Percentage change (increase or decrease) for each coin
-- Users can click on a specific coin to purchase it by specifying the amount in USD they want to spend.
+### Аутентификация пользователей
+- **Регистрация пользователя**: Пользователи могут зарегистрироваться, указав имя пользователя, пароль и подтверждение пароля.
+- **Вход пользователя**: Пользователи могут войти, используя свое имя пользователя и пароль.
 
-### User Profile
-- Users will have a profile section that includes:
-  - Personal information (username, email, etc.)
-  - Settings to update their profile information.
+### Панель управления
+- На панели управления будет отображаться список криптовалют с указанием:
+  - Текущей цены каждой монеты
+  - Процентного изменения (увеличение или уменьшение) для каждой монеты
+- Пользователи смогут кликнуть на конкретную монету, чтобы приобрести её, указав сумму в USD, которую они хотят потратить.
 
-### Portfolio Management
-- The portfolio section will allow users to view:
-  - A list of purchased coins
-  - The current balance in USD
-  - The quantity of each cryptocurrency held.
+### Профиль пользователя
+- У пользователей будет раздел профиля, который включает:
+  - Личную информацию (имя пользователя, электронная почта и т.д.)
+  - Настройки для обновления своей профиля.
 
-### Additional Sections
-- Other sections may include market trends, news related to cryptocurrencies, and any other relevant information or tools for users.
+### Управление портфелем
+- В разделе портфеля пользователи смогут просматривать:
+  - Список приобретённых монет
+  - Текущий баланс в USD
+  - Количество каждой криптовалюты, находящейся в их распоряжении.
 
-## Technical Requirements
-- **Frontend**: PyQt6
-- **Backend**: Flask
-- **Database**: PostgreSQL
-- **Language Prog__**: Python3.11
-- **Deployment**: Local environment setup for user access
+### Дополнительные разделы
+- Другие разделы могут включать рыночные тенденции, новости, связанные с криптовалютами, и любую другую актуальную информацию или инструменты для пользователей.
 
-## Development Phases
-1. **Planning**: Define user stories, wireframes, and overall architecture.
-2. **Design**: Create UI mockups and design the database schema.
-3. **Implementation**: 
-   - Set up the Flask backend with necessary endpoints for user authentication and portfolio management.
-   - Develop the PyQt6 frontend for user interaction and display.
-   - Integrate PostgreSQL for data persistence.
-4. **Testing**: Conduct unit tests, integration tests, and user acceptance testing to ensure functionality and usability.
-5. **Deployment**: Package the application for local deployment and provide documentation for installation and usage.
+## Технические требования
+- **Фронтенд**: PyQt6
+- **Бэкенд**: Flask
+- **База данных**: PostgreSQL
+- **Язык программирования**: Python 3.11
+- **Развертывание**: Настройка локальной среды для доступа пользователей
 
-## Conclusion
-The "Crypto_" Application aims to provide users with a comprehensive tool for managing their cryptocurrency investments. By following the outlined plan, we will ensure a structured approach to development, leading to a successful project completion.
+## Этапы разработки
+1. **Планирование**: Определить пользовательские истории, каркасные схемы и общую архитектуру.
+2. **Дизайн**: Создать макеты интерфейса пользователя и разработать схему базы данных.
+3. **Реализация**: 
+   - Настроить бэкенд Flask с необходимыми конечными точками для аутентификации пользователей и управления портфелем.
+   - Разработать фронтенд на PyQt6 для взаимодействия с пользователем и отображения информации.
+   - Интегрировать PostgreSQL для хранения данных.
+4. **Тестирование**: Провести модульное тестирование, интеграционное тестирование и тестирование приемлемости пользователями для обеспечения функциональности и удобства использования.
+5. **Развертывание**: Упаковать приложение для локального развертывания и предоставить документацию по установке и использованию.
+
+## Заключение
+Приложение "Crypto_" нацелено на предоставление пользователям комплексного инструмента для управления своими инвестициями в криптовалюту. Следуя изложенному плану, мы обеспечим структурированный подход к разработке, что приведет к успешному завершению проекта.
